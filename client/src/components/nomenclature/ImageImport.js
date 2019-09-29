@@ -3,6 +3,7 @@ import {useDropzone} from 'react-dropzone';
 import "./Add.css";
 import { Columns, Heading, Button, Progress, Box } from 'react-bulma-components/full';
 
+import { ENTRYPOINT } from '../../config/entrypoint';
 
 function ImageImport(props) {
   const [success, setSuccess] = useState(false)
@@ -85,7 +86,7 @@ const sendRequest = (file) => {
     const formData = new FormData();
     formData.append("file", file, file.name);
 
-    req.open("POST", "http://localhost:8080/images");
+    req.open("POST", ENTRYPOINT + "/images");
     req.send(formData);
   });
 }
