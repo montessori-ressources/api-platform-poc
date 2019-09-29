@@ -1,8 +1,8 @@
 import Create from './Create';
-import List from './List';
+import List from './List2';
 import Update from './Update';
 import Show from './Show';
 import Search from './Search';
-import Basic from './Add2';
+import Add from './Add';
 
-export { Create, List, Update, Show, Search, Basic };
+export { Create, List, Update, Show, Search, Add };

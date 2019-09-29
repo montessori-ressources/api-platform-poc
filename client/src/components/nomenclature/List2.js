@@ -38,6 +38,11 @@ class List extends Component {
   render() {
     return (
       <div>
+        <div id="entitiesNav" class="columns is-multiline">
+        <Card name="toto"/>
+        <Card />
+        <Card />
+        </div>
 
         <h1>Nomenclature List</h1>
 

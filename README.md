@@ -7,7 +7,7 @@ How to start the docker environment for development purpose ?
 docker-compose up
 ```
 
-How to access then the maim ressources ?
+How to access then the main ressources ?
 
 (you will need to accept the certificate exception as it is self-signed ones)
 
